@@ -137,6 +137,11 @@ form {
       margin-right: auto;
       padding: 5px;
     }
+
+    .infos p{
+      margin-bottom: 30px;
+      margin-top: 20px;
+    }
   }
 
   @media screen and (min-width: 710px){
@@ -159,3 +164,53 @@ form {
       width: 100%;
     }
   }
+
+
+  .tabela-imc {
+    color: #333;
+    border-radius: 10px;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    margin-top: 40px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #333;
+}
+
+th {
+    background-color: #2980b9;
+    color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color: #66a3d2;
+}
+
+tr:nth-child(odd) {
+    background-color: #3498db;
+}
+
+.infos {
+    margin: 20px;
+}
+
+.infos h2 {
+  color: #333;
+  font-family: system-ui;
+  font-weight: 600;
+  text-align: justify;
+}
+
+.infos p {
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
